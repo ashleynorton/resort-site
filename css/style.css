@@ -5,7 +5,11 @@
 }
 
 body {
-  margin: 15px;
+  margin: 15px 0;
   background-color: #F5F5F5;
+}
 
+.row {
+  width: 80%;
+  margin: 0 auto;
 }
