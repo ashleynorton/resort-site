@@ -52,7 +52,6 @@ nav a {
 }
 
 
-
 /****************************************
                     HOME
 ****************************************/
@@ -63,4 +62,73 @@ nav a {
   background-position: center;
   background-size: cover;
   margin-bottom: 50px;
+}
+
+
+/****************************************
+                    FEATURES
+****************************************/
+/*.section-features {
+  padding-bottom: 50px;
+}*/
+
+.feature {
+  float: left;
+  width: 20.5%;
+  margin-right: 6%;
+}
+
+.feature:last-child {
+  margin: 0;
+}
+
+.feature:last-child img {
+  width: 312.078px;
+}
+
+.feature img {
+  max-width: 100%;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  margin-bottom: 10px;
+}
+
+.feature a:last-of-type {
+  text-decoration: none;
+  color: #283739;
+  text-transform: uppercase;
+  padding-bottom: 3px;
+}
+
+.feature a:hover:last-child {
+  border-bottom: 1px solid #2C5D63;
+}
+
+hr {
+  border: 1px solid #2C5D63;
+  background-color: #2C5D63;
+  margin-bottom: 10px;
+}
+
+
+
+/****************************************
+                    FOOTER
+****************************************/
+footer {
+  clear: left;
+  padding-top: 50px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
 }
