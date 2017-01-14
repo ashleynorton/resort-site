@@ -62,8 +62,45 @@ nav a {
   background-position: center;
   background-size: cover;
   margin-bottom: 50px;
+  position: relative;
 }
 
+/*.section-hero h1 {
+  color: #F5F5F5;
+  font-family: 'Lobster Two', cursive;
+  font-family: 'Comfortaa', cursive;
+  font-size: 5em;
+  text-align: center;
+  padding-top: 10%;
+}*/
+
+.section-hero a {
+  text-decoration: none;
+  position: absolute;
+  left: 10%;
+  bottom: 5%;
+}
+
+.section-hero a:hover {
+
+}
+
+.section-hero p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.7em;
+  height: 100px;
+  width: 450px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #F5F5F5;
+  padding-top: 20px;
+}
+
+.section-hero p:hover {
+  background: rgba(255, 255, 255, 0.4);
+  color: #2C5D63;
+  
+}
 
 /****************************************
                     FEATURES
